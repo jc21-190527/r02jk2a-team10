@@ -1,6 +1,6 @@
 
 public class Kadai01 {
-	
+
 	/**
 	 * 課題01
 	 * 文字列の左右の文字を反転して返すメソッド
@@ -9,6 +9,6 @@ public class Kadai01 {
 	 */
 	String ReverseString(String s) {
 		//TODO プログラムをここに作成する
-		return null;
+		return "1111";
 	}
 }
