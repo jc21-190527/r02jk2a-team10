@@ -9,6 +9,6 @@ public class Kadai01 {
 	 */
 	String ReverseString(String s) {
 		//TODO ƒvƒƒOƒ‰ƒ€‚ğ‚±‚±‚Éì¬‚·‚é
-		return "1111";
+		return "11 11";
 	}
 }
