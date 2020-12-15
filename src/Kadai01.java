@@ -9,6 +9,10 @@ public class Kadai01 {
 	 */
 	String ReverseString(String s) {
 		//TODO プログラムをここに作成する
-		return "11 11";
+		String str = String.valueOf(s.charAt(s.length()-1));
+		for(int i=s.length()-2;i>=0;i--) {
+			str+= s.charAt(i);
+		}
+		return str;
 	}
 }
