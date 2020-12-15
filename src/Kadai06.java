@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.Collections;
 
 public class Kadai06 {
 
@@ -8,7 +10,11 @@ public class Kadai06 {
 	 * @return 配列の中の降順で2番目の値
 	 */
 	int get2ndMax(int[] d) {
-		
-		return -1;
+		ArrayList<Integer> list = new ArrayList<Integer>();
+		for(int i = 0;i < d.length; i++) {
+			list.add(Integer.valueOf(d[i]));
+		}
+		Collections.sort(list,Collections.reverseOrder());
+		return  list.get(2);
 	}
 }
