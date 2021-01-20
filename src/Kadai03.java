@@ -34,6 +34,6 @@ public class Kadai03 {
 
 			}
 		}
-		return c;
+		return returnc;
 	}
 }
